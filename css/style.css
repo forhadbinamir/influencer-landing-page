@@ -77,6 +77,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+.influencer-img:hover{
+    transform: rotate(45deg);
+    transition: 1s ease;
+
+}
 .influencer-img img{
     width: 80%;
 }
@@ -91,9 +96,7 @@ body{
     margin-top: 15px;
 
 }
-.btn-hover:hover{
-    
-}
+
 /* influencer section end  */
 
 /* brand logo area  */
