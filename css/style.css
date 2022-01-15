@@ -22,6 +22,12 @@ body{
     margin-bottom: 100px;
 }
 
+
+/* Mobile menu display none in desktop screen   */
+.main-menu .mobile-menu{
+    display: none;
+}
+
 /* start main menu style  */
 
 .main-menu{
@@ -48,6 +54,9 @@ body{
     font-weight: 400;
     
 }
+/* li:last-child{
+    display: none;
+} */
 
 /* End main meneu style  */
 
@@ -176,9 +185,91 @@ footer{
     text-align: center;
 }
 footer i{
-    background-color: #757575;
+    background-color: #757575; 
     color:#fff;
     padding: 8px;
     border-radius: 15px;
 }
 /* End footer style */
+
+
+
+
+/*----------------------------------
+ Start Mobile screen Media Query 
+----------------------------------- */
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        /* background-color: yellow; */
+    }
+    /* li:last-child{
+        display: block;
+        text-align: left;
+    } */
+    .container{
+        margin-bottom: 0;
+    }
+    .main-menu .logo{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        display: none;
+
+    }
+    .menu-list{
+        display: none;
+    }
+    .main-menu .mobile-menu{
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 400px)and (max-width: 600px){
+    .influencer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .influencer-detailse{
+        text-align: center;
+    }
+    .influencer-detailse .btn-link{
+        margin-bottom: 25px;
+    }
+    .influencer-img{
+        margin:15px;
+    }
+
+    .brand-logos{
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin:auto;
+        
+
+    }
+    .populer-collections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-img{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+}
