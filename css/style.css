@@ -199,18 +199,16 @@ footer i{
  Start Mobile screen Media Query 
 ----------------------------------- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 390px)and (max-width: 600px) {
 
-    body{
-        /* background-color: yellow; */
-    }
-    /* li:last-child{
-        display: block;
-        text-align: left;
-    } */
+
+        
     .container{
         margin-bottom: 0;
     }
+        
+    
+    
     .main-menu .logo{
         width: 100%;
         display:flex;
@@ -227,10 +225,11 @@ footer i{
         justify-content: space-evenly;
         align-items: center;
     }
-    
 }
+    
 
-@media only screen and (min-width: 400px)and (max-width: 600px){
+
+@media only screen and (min-width: 390px)and (max-width: 600px){
     .influencer-section{
         display: flex;
         flex-direction: column;
@@ -246,15 +245,14 @@ footer i{
     }
 
     .brand-logos{
-        height: 200px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        margin:auto;
-        
+        justify-content: center;
+    }
 
+    .brand-logos img{
+        width: 80%;
+        height: 50px;
     }
     .populer-collections{
         display: flex;
