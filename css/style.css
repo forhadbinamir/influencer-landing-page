@@ -1,0 +1,184 @@
+
+
+/* Google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
+
+/* utilities or common style  */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.container-2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+/* start main menu style  */
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    color: #3A3A3A;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.menu-list li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+/* End main meneu style  */
+
+/* influencer section start  */
+.influencer-section{
+    display:flex;
+    justify-content: space-between;
+}
+.influencer-title{
+    font-size: 54px;
+    color: #3A3A3A;
+}
+.influencer-section p{
+    color: #3A3A3A;
+}
+.influencer-img{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.influencer-img img{
+    width: 80%;
+}
+.btn-link{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color:#ffffff;
+    padding: 10px 25px;
+    border-radius: 25px; 
+    font-weight: 400px;
+    display: inline-block;
+    margin-top: 15px;
+
+}
+/* influencer section end  */
+
+/* brand logo area  */
+
+.brand-logos{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 15px 0;
+    border-top-color: hsl(gray, 10, 1);
+}
+
+/*end style brand logo area  */
+
+/* populer section style start  */
+
+.populer-collections{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-evenly;
+    justify-items: center;
+    border-radius: 5px;
+    /* box-shadow: rgb(201, 198, 198); */
+    background-color: rgba(238, 236, 236, 0.322);
+
+    
+}
+.populer-item{
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.populer-item .populer-details{
+    color: #3A3A3A;
+    font-size: 14px;
+    font-weight: bold;
+}
+.populer-item i{
+    color: #FC9930;
+}
+.container-2 h4{
+    text-align: right;
+    color: #E02C6D;
+}
+/* populer section style end  */
+
+/* start contact us style  */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-img img{
+    width: 70%;
+}
+
+/* style form  */
+.contact-info{
+    border-radius: 5px;
+    background-color: rgba(238, 236, 236, 0.322);
+    padding: 20px 75px;
+
+}
+.sub-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-form input{
+    width: 100%;
+    margin:10px;
+    padding: 10px 25px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.sub-form .btn-submit{
+    border:none;
+}
+
+/* End contact us style  */
+
+
+/* start footer style */
+footer{
+    color: #fff;
+    padding: 25px 0;
+    background-color: #0A0826;
+    text-align: center;
+}
+footer i{
+    background-color: #757575;
+    color:#fff;
+    padding: 8px;
+    border-radius: 15px;
+}
+/* End footer style */
